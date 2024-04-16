@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <form>
+      <input type="text" name="" id="productName" placeholder="name" />
+      <input type="number" name="" id="productPrice" placeholder="price" />
+      <input type="button" value="create" onclick="create()" />
+    </form>
+
+    <div class="products" id="products"></div>
+    <div class="basketbtn" onclick="basketOpen() "><i class="fa-solid fa-basket-shopping"></i></div>
+    <div class="basket" style="display: none;" id="basketProduct">
+      <h1 id="price">Total price:</h1>
+      <div id="basketProducts"></div>
+      
+    </div>
+    <script src="js/test.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c5f8229f0d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
