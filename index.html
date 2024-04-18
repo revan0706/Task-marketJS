@@ -14,11 +14,13 @@
     </form>
 
     <div class="products" id="products"></div>
-    <div class="basketbtn" onclick="basketOpen() "><i class="fa-solid fa-basket-shopping"></i></div>
-    <div class="basket" style="display: none;" id="basketProduct">
+    <div class="basketbtn" onclick="basketOpen() ">
+      <i class="fa-solid fa-basket-shopping"></i>
+      <div class="productNumbers" style="display: none;" id="productNumbers">1</div>
+    </div>
+    <div class="basket" style="display: none" id="basketProduct">
       <h1 id="price">Total price:</h1>
       <div id="basketProducts"></div>
-      
     </div>
     <script src="js/test.js"></script>
     <script
